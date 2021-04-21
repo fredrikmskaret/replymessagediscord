@@ -5,7 +5,7 @@ client.once('ready', () => {
   console.log('Ready!');
 });
 
-client.login('ODM0MzIyNTgwMTc3NTUxNDEx.YH_NdA.gD40fvxwgfGtQ3b0zyCZwr2Wl74');
+client.login('TOKEN');
 
 client.on('message', message => {
   if (message.content === '!ping'){
